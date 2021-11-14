@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": "gt-win11-avd-image915"
+        },
+        "enableAcceleratedNetworking": {
+            "value": true
+        },
+        "subnetName": {
+            "value": "Subnet-avd"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourceGroups/RG1/providers/Microsoft.Network/virtualNetworks/ProdNett"
+        },
+        "virtualMachineName": {
+            "value": "GT-Win11-AVD-Image"
+        },
+        "virtualMachineComputerName": {
+            "value": "GT-Win11-AVD-Im"
+        },
+        "virtualMachineRG": {
+            "value": "GT-RG-AVD"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D4s_v4"
+        },
+        "adminUsername": {
+            "value": "cipheradmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "Manual"
+        },
+        "enableHotpatching": {
+            "value": false
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "gtweazdiagnostics"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourceGroups/GT-WE-RG-FP/providers/Microsoft.Storage/storageAccounts/gtweazdiagnostics"
+        },
+        "zone": {
+            "value": "1"
+        }
+    }
+}
