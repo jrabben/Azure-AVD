@@ -21,7 +21,7 @@
             "value": "GT-Win11-AVD-Image"
         },
         "virtualMachineComputerName": {
-            "value": "GT-Win11-AVD-Im"
+            "value": "GT-Win11-Image"
         },
         "virtualMachineRG": {
             "value": "GT-RG-AVD"
@@ -36,7 +36,7 @@
             "value": "cipheradmin"
         },
         "adminPassword": {
-            "value": null
+            "value": "Profi335544!"
         },
         "patchMode": {
             "value": "Manual"
