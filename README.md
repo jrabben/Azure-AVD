@@ -1,1 +1,2 @@
 # Azure ARM templates
+Test
