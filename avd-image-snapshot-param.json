@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "apiVersion": {
+            "value": "2020-12-01"
+        },
+        "name": {
+            "value": "GT-AVD-Image-snap-221121"
+        },
+        "accountType": {
+            "value": "Standard_LRS"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "createOption": {
+            "value": "Copy"
+        },
+        "sourceUri": {
+            "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourceGroups/GT-RG-AVD/providers/Microsoft.Compute/disks/GT-Win11-AVD-Image_OsDisk_1_25e4d8a517634f8ba33d64a7a94db13c"
+        },
+        "incremental": {
+            "value": "false"
+        },
+        "diskEncryptionSetType": {
+            "value": "EncryptionAtRestWithPlatformKey"
+        },
+        "networkAccessPolicy": {
+            "value": "AllowAll"
+        }
+    }
+}
