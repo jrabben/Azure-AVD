@@ -1,6 +1,6 @@
 
-$templateFile = "C:\Users\joaki\.vscode\git_clone\Azure\AVD-Image-VM-win11.json"
-$parameterFile="C:\Users\joaki\.vscode\git_clone\Azure\parameters.json"
+$templateFile = "C:\Users\joaki\.vscode\git_clone\Azure\avd-image-snapshot.json"
+$parameterFile="C:\Users\joaki\.vscode\git_clone\Azure\avd-image-snapshot-param.json"
 New-AzResourceGroupDeployment `
   -Name AVD-Image `
   -ResourceGroupName GT-RG-AVD `
