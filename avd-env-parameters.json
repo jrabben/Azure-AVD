@@ -1,0 +1,195 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "artifactsLocation": {
+            "value": "https://wvdportalstorageblob.blob.core.windows.net/galleryartifacts/Configuration_9-30-2021.zip"
+        },
+        "nestedTemplatesLocation": {
+            "value": "https://catalogartifact.azureedge.net/publicartifacts/Microsoft.Hostpool-ARM-1.10.2/"
+        },
+        "tokenExpirationTime": {
+            "value": "2021-11-25T13:59:44.843Z"
+        },
+        "vmTemplate": {
+            "value": "{\"domain\":\"gtravel.local\",\"galleryImageOffer\":null,\"galleryImagePublisher\":null,\"galleryImageSKU\":null,\"imageType\":\"CustomImage\",\"imageUri\":null,\"customImageId\":\"/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourceGroups/GT-RG-AVD/providers/Microsoft.Compute/galleries/gtcomputegallery/images/Win11EMS\",\"namePrefix\":\"gt-avd-host\",\"osDiskType\":\"Premium_LRS\",\"useManagedDisks\":true,\"vmSize\":{\"id\":\"Standard_D4s_v3\",\"cores\":4,\"ram\":16},\"galleryItemId\":null}"
+        },
+        "intune": {
+            "value": false
+        },
+        "hostpoolName": {
+            "value": "hostpool1"
+        },
+        "hostpoolDescription": {
+            "value": "Created through the Azure Virtual Desktop extension"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "validationEnvironment": {
+            "value": false
+        },
+        "hostpoolType": {
+            "value": "Pooled"
+        },
+        "loadBalancerType": {
+            "value": "BreadthFirst"
+        },
+        "vmResourceGroup": {
+            "value": "GT-RG-AVD"
+        },
+        "vmNamePrefix": {
+            "value": "gt-avd-host"
+        },
+        "vmLocation": {
+            "value": "westeurope"
+        },
+        "availabilityOption": {
+            "value": "AvailabilityZone"
+        },
+        "availabilitySetName": {
+            "value": ""
+        },
+        "createAvailabilitySet": {
+            "value": false
+        },
+        "availabilitySetUpdateDomainCount": {
+            "value": 5
+        },
+        "availabilitySetFaultDomainCount": {
+            "value": 2
+        },
+        "availabilityZone": {
+            "value": 1
+        },
+        "vmImageType": {
+            "value": "CustomImage"
+        },
+        "vmSize": {
+            "value": "Standard_D4s_v3"
+        },
+        "vmNumberOfInstances": {
+            "value": 2
+        },
+        "vmDiskType": {
+            "value": "Premium_LRS"
+        },
+        "vmUseManagedDisks": {
+            "value": true
+        },
+        "bootDiagnostics": {
+            "value": {
+                "enabled": true,
+                "storageUri": "https://gtweazdiagnostics.blob.core.windows.net/"
+            }
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "RG1"
+        },
+        "existingVnetName": {
+            "value": "ProdNett"
+        },
+        "existingSubnetName": {
+            "value": "Subnet-avd"
+        },
+        "createNetworkSecurityGroup": {
+            "value": false
+        },
+        "aadJoin": {
+            "value": false
+        },
+        "administratorAccountUsername": {
+            "value": "adm.joakim@gtravel.local"
+        },
+        "administratorAccountPassword": {
+            "value": null
+        },
+        "domain": {
+            "value": "gtravel.local"
+        },
+        "ouPath": {
+            "value": "OU=Azure-Virtual-Desktop,OU=Azure-Servers,OU=G-Travel-Azure,DC=gtravel,DC=local"
+        },
+        "vmAdministratorAccountUsername": {
+            "value": "cipheradmin"
+        },
+        "vmAdministratorAccountPassword": {
+            "value": null
+        },
+        "hostpoolDiagnosticSettingsLogAnalyticsWorkspaceId": {
+            "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourcegroups/gt-we-rg-oms/providers/microsoft.operationalinsights/workspaces/gt-we-oms"
+        },
+        "addToWorkspace": {
+            "value": true
+        },
+        "applicationGroupTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "availabilitySetTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "hostpoolTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "imageTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "networkInterfaceTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "networkSecurityGroupTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "virtualMachineTags": {
+            "value": {
+                "Creator": "Cipher",
+                "Workload": "AVD"
+            }
+        },
+        "apiVersion": {
+            "value": "2019-12-10-preview"
+        },
+        "deploymentId": {
+            "value": "05507a70-97c2-479a-9e07-f0718c950039"
+        },
+        "vmCustomImageSourceId": {
+            "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourceGroups/GT-RG-AVD/providers/Microsoft.Compute/galleries/gtcomputegallery/images/Win11EMS"
+        },
+        "maxSessionLimit": {
+            "value": 8
+        },
+        "workspaceResourceGroup": {
+            "value": "GT-RG-AVD"
+        },
+        "workspaceName": {
+            "value": "workspace1"
+        },
+        "workspaceLocation": {
+            "value": "westeurope"
+        },
+        "allApplicationGroupReferences": {
+            "value": ""
+        },
+        "isNewWorkspace": {
+            "value": true
+        }
+    }
+}
