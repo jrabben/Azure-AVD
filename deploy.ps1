@@ -1,6 +1,6 @@
 # Windows
- $templateFile = "C:\Users\joaki\.vscode\Azure-AVD\avd-image-snapshot.json"
- $parameterFile="C:\Users\joaki\.vscode\Azure-AVD\avd-image-snapshot-param.json"
+ $templateFile = "C:\Users\joaki\.vscode\Azure-AVD\avd-env-template.json"
+ $parameterFile="C:\Users\joaki\.vscode\Azure-AVD\avd-env-parameters.json"
 
 
 # MacOS
