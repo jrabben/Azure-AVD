@@ -21,7 +21,7 @@
             "value": "hostpool1"
         },
         "hostpoolDescription": {
-            "value": "Created through the Azure Virtual Desktop extension"
+            "value": "G-Travel Hostpool"
         },
         "location": {
             "value": "westeurope"
@@ -102,7 +102,7 @@
             "value": "adm.joakim@gtravel.local"
         },
         "administratorAccountPassword": {
-            "value": null
+            "value": "Kba14409"
         },
         "domain": {
             "value": "gtravel.local"
@@ -114,7 +114,7 @@
             "value": "cipheradmin"
         },
         "vmAdministratorAccountPassword": {
-            "value": null
+            "value": "Profi335544!"
         },
         "hostpoolDiagnosticSettingsLogAnalyticsWorkspaceId": {
             "value": "/subscriptions/437cd853-9658-49c5-b094-0cd58162861a/resourcegroups/gt-we-rg-oms/providers/microsoft.operationalinsights/workspaces/gt-we-oms"
